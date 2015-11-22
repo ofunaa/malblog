@@ -1,5 +1,7 @@
 require "malblog/version"
 
 module Malblog
-  # Your code goes here...
+  def self.test_call
+    p Malblog::VERSION
+  end
 end
